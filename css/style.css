@@ -498,121 +498,19 @@ body {
 .mobilemenuhamburger {
     display: none;
 }
-
-@media only screen and (max-width: 770px) {
-    .section_features {
-        width: 100%;
-        height: auto;
-        overflow: auto;
-        padding-top:70px;
-    }
-
-    .featuresthreezero {
-        width: 100%;
-    }
-
-    .featuresthreefive {
-        width: 100%;
-    }
-
-    .instructorshalf {
-        width: 100%;
-        text-align: center;
-    }
-
-    .studenthalf {
-        width: 100%;
-        text-align: center;
-    }
-
-    .aboutustitle {
-        font-size: 28px;
-    }
-
-    .menuitemswrap {
-        display: none;
-    }
-
-    .mobilemenuhamburger {
-        display: block;
-        background: url("../img/mobile-menu-toggle-white.png");
-        background-size: cover;
-        width: 35px;
-        height: 35px;
-        margin: 42px 44px 0px 0px;
-        float: right;
-        transition: 0.5s;
-    }
-
-    .menuunderscroll .mobilemenuhamburger {
-        margin: 25px 44px 0px 0px;
-        background: url("../img/mobile-menu-toggle-gray.png");
-        background-size: cover;
-        transition: 0.5s;
-    }
-
-    .herotext {
-        font-size: 34px;
-        padding: 100px 10% 0px 10%;
-        text-align: center;
-    }
-
-    .watchvideobtn {
-        text-align: center;
-    }
-
-    .homewrap {
-
-        padding: 20% 0px 0px 0px;
-    }
-
-    .appstorebtm {
-        display: block;
-        margin: 0 auto;
-    }
-
-    .iphone-students {
-        float:none;
-        padding-right: 0;
-    }
-    .studentstext3 {
-        padding-right: 0;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .section_instructors {
-        margin-top:100px;
-    }
-    .instructorstext1 {
-        padding-left:0;
-    }
-    .instructorstext2 {
-        padding-left:0;
-    }
-    .instructorstext3 {
-        padding-left:0;
-    }
-    .instructorsbtmwrap {
-        padding-left:0;
-    }
-    .iphone-instructors {
-        float:none;
-        padding-left:0;
-        margin-top:50px;
-    }
-    .futuretitleleft {text-align:center;}
-    .futuretextleft {text-align:center;padding-left:0;margin-bottom: 20px;}
-    .futuretitleright {text-align:center;}
-    .futuretextright {text-align:center;padding-right:0;margin-bottom:20px;}
-
-    .mobile {
-        display: block;
-    }
-
-    .pk {
-        display: none;
-    }
+.play-button {
+    padding-top: 80px;
+    height: 100px;
+    width: 900px;
+    margin: 0 auto;
 }
+.play-button1 {
+    height: 100px;
+    margin: 0 auto;
+    width: 750px;
+    padding-top: 10px;
+}
+
 
 @media only screen and (max-width: 1024px) {
     .menuitemswrap {
@@ -636,13 +534,6 @@ body {
 
 }
 
-.play-button {
-    padding-top: 80px;
-    height: 100px;
-    width: 900px;
-    margin: 0 auto;
-}
-
 
 .contact {
     float: left;
@@ -653,6 +544,7 @@ body {
 
 .overflow {
     overflow: auto;
+
 }
 
 .videobuttondawdaw {
@@ -769,6 +661,14 @@ body {
         padding: 40px;
     }
 
+    .play-button {
+        width: 100%;
+        padding-left: 8%;
+    }
+    .play-button1 {
+        width: 100%;
+        padding-left: 8%;
+    }
     .studenthalf {
         width: initial;
         text-align: center;
@@ -883,5 +783,128 @@ body {
         width: 90%;
         margin: 0 auto;
         padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .futureimgleft {float:none;}
+    .futureimgright {float:none;}
+    .overflow {text-align: center;padding-top:20px;}
+    .section_features {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        padding-top:70px;
+    }
+
+    .play-button {
+        width: 100%;
+    }
+    .play-button1 {
+        width: 100%;
+    }
+    .featuresthreezero {
+        width: 100%;
+    }
+
+    .featuresthreefive {
+        width: 100%;
+    }
+
+    .instructorshalf {
+        width: 100%;
+        text-align: center;
+    }
+
+    .studenthalf {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutustitle {
+        font-size: 28px;
+    }
+
+    .menuitemswrap {
+        display: none;
+    }
+
+    .mobilemenuhamburger {
+        display: block;
+        background: url("../img/mobile-menu-toggle-white.png");
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        margin: 42px 44px 0px 0px;
+        float: right;
+        transition: 0.5s;
+    }
+
+    .menuunderscroll .mobilemenuhamburger {
+        margin: 25px 44px 0px 0px;
+        background: url("../img/mobile-menu-toggle-gray.png");
+        background-size: cover;
+        transition: 0.5s;
+    }
+
+    .herotext {
+        font-size: 34px;
+        padding: 100px 10% 0px 10%;
+        text-align: center;
+    }
+
+    .watchvideobtn {
+        text-align: center;
+    }
+
+    .homewrap {
+
+        padding: 20% 0px 0px 0px;
+    }
+
+    .appstorebtm {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .iphone-students {
+        float:none;
+        padding-right: 0;
+    }
+    .studentstext3 {
+        padding-right: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section_instructors {
+        margin-top:100px;
+    }
+    .instructorstext1 {
+        padding-left:0;
+    }
+    .instructorstext2 {
+        padding-left:0;
+    }
+    .instructorstext3 {
+        padding-left:0;
+    }
+    .instructorsbtmwrap {
+        padding-left:0;
+    }
+    .iphone-instructors {
+        float:none;
+        padding-left:0;
+        margin-top:50px;
+    }
+    .futuretitleleft {text-align:center;}
+    .futuretextleft {text-align:center;padding-left:0;margin-bottom: 20px;}
+    .futuretitleright {text-align:center;}
+    .futuretextright {text-align:center;padding-right:0;margin-bottom:20px;}
+
+    .mobile {
+        display: block;
+    }
+
+    .pk {
+        display: none;
     }
 }
