@@ -9,7 +9,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-	<link rel="shortcut icon" href="fiveicon.png" type="image/png">
 </head>
 	<body>
 	<div class="pk">
@@ -62,12 +61,19 @@
 				golf, etc. and book an in-person tutoring session with quality instructors at the convenience and comfort of their own home
 				and schedule. Our goal is to make learning fun by introducing the social element to personalized education.</div>
 			<div class="play-button">
-				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/play_button@2x.png"></div>
-				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/play_button@2x.png"></div>
-				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/play_button@2x.png"></div>
-				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/play_button@2x.png"></div>
-				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/play_button@2x.png"></div>
-				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/play_button@2x.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-business.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-computer.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-culinary.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-exam-prep.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-health.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-language.png"></div>
+			</div>
+			<div class="play-button" style="width: 750px;padding-top: 10px;">
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-math.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-music.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-science.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-sports.png"></div>
+				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-theatre.png"></div>
 			</div>
 		</div>
 		<div id="section_students" class="section_students">
@@ -102,20 +108,20 @@
 		<div class="pk">
 			<div id="section_features" class="section_features">
 			<div class="featuresthreefive">
-				<div class="overflow"><img class="futureimgleft" src="img/play_button@2x.png"></div>
+				<div class="overflow"><img class="futureimgleft" src="img/time_place_icon@2x.png"></div>
 				<div class="futuretitleleft">FEATURE ONE</div>
 				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
-				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgleft" src="img/play_button@2x.png"></div>
+				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgleft" src="img/payment_icon@2x.png"></div>
 				<div class="futuretitleleft">FEATURE TWO</div>
 				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
 			</div>
 			<div class="featuresthreezero"><img style="width:auto;height:500px;display:block;margin:0 auto;" src="img/iPhone6_mockup_features_black@2x.png"></div>
 			<div class="featuresthreefive">
-				<div style="overflow: auto;"><img class="futureimgright" src="img/play_button@2x.png"></div>
-				<div class="futuretitleright">FEATURE THREE</div>
+				<div style="overflow: auto;"><img class="futureimgright" src="img/intructors_icon@2x.png"></div>
+				<div class="futuretitleright">FEATURE ONE</div>
 				<div class="futuretextright">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
-				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgright" src="img/play_button@2x.png"></div>
-				<div class="futuretitleright">FEATURE FOUR</div>
+				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgright" src="img/coonect_icon@2x.png"></div>
+				<div class="futuretitleright">FEATURE TWO</div>
 				<div class="futuretextright">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
 			</div>
 			</div>
@@ -124,19 +130,19 @@
 		<div id="section_features" class="section_features">
 			<div class="featuresthreezero"><img style="width:auto;height:500px;display:block;margin:0 auto;" src="img/iPhone6_mockup_features_black@2x.png"></div>
 			<div class="featuresthreefive">
-				<div class="overflow"><img class="futureimgleft" src="img/play_button@2x.png"></div>
+				<div class="overflow"><img class="futureimgleft" src="img/time_place_icon@2x.png"></div>
 				<div class="futuretitleleft">FEATURE ONE</div>
 				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
-				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgleft" src="img/play_button@2x.png"></div>
+				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgleft" src="img/payment_icon@2x.png"></div>
 				<div class="futuretitleleft">FEATURE TWO</div>
 				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
 			</div>
 			<div class="featuresthreefive">
-				<div style="overflow: auto;"><img class="futureimgright" src="img/play_button@2x.png"></div>
-				<div class="futuretitleright">FEATURE THREE</div>
+				<div style="overflow: auto;"><img class="futureimgright" src="img/intructors_icon@2x.png"></div>
+				<div class="futuretitleright">FEATURE ONE</div>
 				<div class="futuretextright">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
-				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgright" src="img/play_button@2x.png"></div>
-				<div class="futuretitleright">FEATURE FOUR</div>
+				<div style="overflow: auto;"><img style="padding-top: 40px;" class="futureimgright" src="img/coonect_icon@2x.png"></div>
+				<div class="futuretitleright">FEATURE TWO</div>
 				<div class="futuretextright">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
 			</div>
 		</div>

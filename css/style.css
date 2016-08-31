@@ -1,565 +1,887 @@
-body{
-	margin:0px;
-	font-family: 'Montserrat', sans-serif;
-}
-.topmenu{
-	top: 0px;
-	position:fixed;
-	width:100%;
-	height:120px;
-	transition:0.5s;
-} 
-.menuunderscroll{
-	transition:0.5s;
-	height:88px;
-	background: rgba(255,255,255,0.8);
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.logosection{
-	width:30%;
-	float:left;
-}
-.menusection{
-	width:70%;
-	float:left;
-} 
-.menuitem{
-	float:left;
-	padding:0px 17.5px 0px 17.5px;
-	font-family: 'Montserrat', sans-serif;
-	  font-size: 15px;
-	  color: #ffffff;
+.topmenu {
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    transition: 0.5s;
 }
 
-.menuunderscroll .menuitem{
-	 color: #7d7e7f;
+.menuunderscroll {
+    transition: 0.5s;
+    height: 88px;
+    background: rgba(255, 255, 255, 0.8);
 }
-.menuunderscroll .menuitem:hover{
-	 color: #414042;
-	 cursor:pointer;
+
+.logosection {
+    width: 30%;
+    float: left;
 }
-.menuitem:hover{
-	 color: #414042;
-	  cursor:pointer;
+
+.menusection {
+    width: 70%;
+    float: left;
 }
+
+.menuitem {
+    float: left;
+    padding: 0px 17.5px 0px 17.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.menuunderscroll .menuitem {
+    color: #7d7e7f;
+}
+
+.menuunderscroll .menuitem:hover {
+    color: #414042;
+    cursor: pointer;
+}
+
+.menuitem:hover {
+    color: #414042;
+    cursor: pointer;
+}
+
 /**--home item only-----------------------------------------------------**/
-.menuitemhome{
-	float:left;
-	padding:0px 17.5px 0px 17.5px;
-	font-family: 'Montserrat', sans-serif;
-	  font-size: 15px;
-	  color: #ffffff;
+.menuitemhome {
+    float: left;
+    padding: 0px 17.5px 0px 17.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
 }
 
-.menuunderscroll .menuitemhome{
-	 color: #7d7e7f;
+.menuunderscroll .menuitemhome {
+    color: #7d7e7f;
 }
-.menuunderscroll .menuitemhome:hover{
-	 color: #414042;
-	 cursor:pointer;
+
+.menuunderscroll .menuitemhome:hover {
+    color: #414042;
+    cursor: pointer;
 }
-.menuitemhome:hover{
-	 color: #414042;
-	  cursor:pointer;
+
+.menuitemhome:hover {
+    color: #414042;
+    cursor: pointer;
 }
+
 /**--home item only-----------------------------------------------------**/
 
-.activemenuitem .menuitem{
-	color: #414042;
+.activemenuitem .menuitem {
+    color: #414042;
 }
-.menuitemswrap{
 
-    width: 691px;
-	float:right;
-	padding:52px 74px 0px 0px;
-	transition:0.5s;
+.menuitemswrap {
+
+    width: 684px;
+    float: right;
+    padding: 52px 74px 0px 0px;
+    transition: 0.5s;
 }
-.menuunderscroll .menuitemswrap{
-	transition:0.5s;
-	padding:35px 74px 0px 0px;
+
+.menuunderscroll .menuitemswrap {
+    transition: 0.5s;
+    padding: 35px 74px 0px 0px;
 }
-.logohome{
+
+.logohome {
     width: 171px;
     height: 48px;
-	margin:37px 0px  0px 44px;
-	transition:0.5s;
-	background:url("../img/header_logo_home@2x.png");
-	background-size: cover;
+    margin: 37px 0px 0px 44px;
+    transition: 0.5s;
+    background: url("../img/header_logo_home@2x.png");
+    background-size: cover;
 
 }
-.menuunderscroll .logohome{
-	margin:20px 0px  0px 44px;
-	transition:0.5s;
-	background:url("../img/header_logo@2x.png");
-	background-size: cover;
+
+.menuunderscroll .logohome {
+    margin: 20px 0px 0px 44px;
+    transition: 0.5s;
+    background: url("../img/header_logo@2x.png");
+    background-size: cover;
 }
-.section_home{
-	width:100%;
-	height:700px;
-	background:url("../img/home_bg.jpg");
-	background-size: cover;
+
+.section_home {
+    width: 100%;
+    height: 700px;
+    background: url("../img/home_bg.jpg");
+    background-size: cover;
     background-position-x: 50%;
 }
 
-.section_aboutus{
-	
-	width:100%;
-	height:700px;
-	background:#fff;
+.section_aboutus {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-bottom:80px;
+}
+.pk {
+    display: block;
 }
 
-
-
-.section_students{
-	padding-top: 16%;
-	width:100%;
-	height:700px;
-	background:#fff;
+.mobile {
+    display: none;
 }
-.section_instructors{
-	padding-top: 16%;
-	width:100%;
-	height:700px;
-	background:#fff;
-}
-.section_features{
-	padding-top: 16%;
-	width:100%;
-	height:700px;
-	background:#fff;
+.section_students {
+    width: 100%;
+    height: 700px;
+    background: #fff;
 }
 
-.section_download{
-	width:100%;
-	height:700px;
-	background:#fff;
-		background:url("../img/download_bg.jpg");
-	background-size: cover;
+.section_instructors {
+    width: 100%;
+    height: 700px;
+    background: #fff;
+}
+
+.section_features {
+    width: 100%;
+    height: 700px;
+    background: #fff;
+}
+
+.section_download {
+    width: 100%;
+    height: 700px;
+    background: #fff;
+    background: url("../img/download_bg.jpg");
+    background-size: cover;
     background-position-x: 50%;
 }
-.footer{
-	height:85px;
-	background:#414042;
-}
-.homewrap{
-	
-	padding:20% 0px 0px 5%;
-}
-.herotext{
-font-size: 64px;
-  color: #ffffff;
-  padding: 0px 20% 0px 0px;
-}
-.watchvideobtn{
- font-size: 24px;
-  color: #ffffff;
-  padding-top:10px;
+
+.footer {
+    height: 85px;
+    background: #414042;
 }
 
-.appstorebtm{
-	width: 169px;
-	height: auto;
-	margin-top:60px;
-}
-.playvideobtn{
-	width:60px;
-	height:auto;
-	vertical-align: middle;
-	padding-left:10px;
+.homewrap {
+
+    padding: 20% 0px 0px 5%;
 }
 
-.aboutustitle{
-	font-size: 48px;
-  text-align: center;
-  color: #414042;
-  padding:200px 0px 60px 0px;
-}
-.aboutustext{
-	font-size: 18px;
-  text-align: center;
-  color: #414042;
-  padding:0px 13%;
-  font-family: 'Roboto', sans-serif;
-}
-.aboutusimage{
-	float:left;
-	padding: 0px 25px;
-}
-.studenthalf{
-	width:50%;
-	float:left;
-}
-.studentstext1{
- font-size: 18px;
-  font-style: italic;
-  color: #414042;
-  font-family: 'Roboto', sans-serif;
-}
-.studentstext2{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 48px;
-  color: #414042;
+.herotext {
+    font-size: 64px;
+    color: #ffffff;
+    padding: 0px 20% 0px 0px;
 }
 
-.studentstext3{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-  color: #7d7e7f;
-  padding-top:20px;
-  padding-right:20%;
-}
-.studentsbtmwrap{
-	padding-top:60px;
-}
-.studentsbtm{
-	font-family: 'Roboto', sans-serif;
-	border-radius: 4px;
-  background-color: rgba(215, 215, 215, 0.82);
-  font-size: 16px;
-  color: #414042;
-  padding:16px 32px;
-  text-decoration: none;
+.watchvideobtn {
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 10px;
 }
 
-
-.instructorshalf{
-	width:50%;
-	float:left;
-}
-.instructorstext1{
- font-size: 18px;
-  font-style: italic;
-  color: #414042;
-  font-family: 'Roboto', sans-serif;
-  padding-left:20%;
-}
-.instructorstext2{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 48px;
-  color: #414042;
-  padding-left:20%;
+.appstorebtm {
+    width: 169px;
+    height: auto;
+    padding-top: 60px;
 }
 
-.instructorstext3{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-  color: #7d7e7f;
-  padding-top:20px;
-  padding-left:20%;
-}
-.instructorsbtmwrap{
-	padding-top:60px;
-	padding-left:20%;
-}
-.instructorsbtm{
-	font-family: 'Roboto', sans-serif;
-	border-radius: 4px;
-  background-color: rgba(215, 215, 215, 0.82);
-  font-size: 16px;
-  color: #414042;
-  padding:16px 32px;
-  text-decoration: none;
-}
-.featuresthreefive{
-	width:35%;
-	float:left;
-}
-.featuresthreezero{
-	width:30%;
-	float:left;
+.playvideobtn {
+    width: 60px;
+    height: auto;
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
-.futuretitleleft{
-	font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  color: #414042;
-  text-align:right;
-   padding-bottom:20px;
+.aboutustitle {
+    font-size: 48px;
+    text-align: center;
+    color: #414042;
+    padding: 70px 0px 60px 0px;
 }
 
-.futuretextleft{
-	font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #7d7e7f;
-  text-align:right;
-  padding-left:20%;
- 
-}
-.futureimgleft{
-	width:100px;height:auto;float:right;padding:0px 0px 20px 0px;
+.aboutustext {
+    font-size: 18px;
+    text-align: center;
+    color: #414042;
+    padding: 0px 13%;
+    font-family: 'Roboto', sans-serif;
 }
 
-.futuretitleright{
-	font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  color: #414042;
-  text-align:left;
-   padding-bottom:20px;
+.aboutusimage {
+    float: left;
+    padding: 0px 25px;
 }
 
-.futuretextright{
-	font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #7d7e7f;
-  text-align:left;
-  padding-right:20%;
- 
-}
-.futureimgright{
-	width:100px;height:auto;float:left;padding:0px 0px 20px 0px;
+.studenthalf {
+    width: 50%;
+    float: left;
 }
 
-.section_video{
-	height:300px;
-	width:100%;
-	background:url("../img/video_bg.jpg");
-	background-size:cover;
-	background-position-x: 50%;
+.studentstext1 {
+    font-size: 18px;
+    font-style: italic;
+    color: #414042;
+    font-family: 'Roboto', sans-serif;
 }
 
-.watchvideotext{
-	font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  text-align: left;
-  padding-left:30%;
-  color: #ffffff;
-   padding-top: 20px;
+.studentstext2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #414042;
 }
-.playvideobtn2{
-	width: 60px;
+
+.studentstext3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7d7e7f;
+    padding-top: 20px;
+    padding-right: 20%;
+}
+
+.studentsbtmwrap {
+    padding-top: 60px;
+}
+
+.studentsbtm {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    background-color: rgba(215, 215, 215, 0.82);
+    font-size: 16px;
+    color: #414042;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.instructorshalf {
+    width: 50%;
+    float: left;
+}
+
+.instructorstext1 {
+    font-size: 18px;
+    font-style: italic;
+    color: #414042;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20%;
+}
+
+.instructorstext2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    color: #414042;
+    padding-left: 20%;
+}
+
+.instructorstext3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7d7e7f;
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+.instructorsbtmwrap {
+    padding-top: 60px;
+    padding-left: 20%;
+}
+
+.instructorsbtm {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    background-color: rgba(215, 215, 215, 0.82);
+    font-size: 16px;
+    color: #414042;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+.featuresthreefive {
+    width: 35%;
+    float: left;
+}
+
+.featuresthreezero {
+    width: 30%;
+    float: left;
+}
+
+.futuretitleleft {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #414042;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.futuretextleft {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7d7e7f;
+    text-align: right;
+    padding-left: 20%;
+
+}
+
+.futureimgleft {
+    width: 100px;
+    height: auto;
+    float: right;
+    padding: 0px 0px 20px 0px;
+}
+
+.futuretitleright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #414042;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.futuretextright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7d7e7f;
+    text-align: left;
+    padding-right: 20%;
+
+}
+
+.futureimgright {
+    width: 100px;
+    height: auto;
+    float: left;
+    padding: 0px 0px 20px 0px;
+}
+
+.section_video {
+    height: 300px;
+    width: 100%;
+    background: url("../img/video_bg.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.watchvideotext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 30%;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.playvideobtn2 {
+    width: 60px;
     height: auto;
     padding-left: 30%;
     padding-top: 90px;
 
-	
 }
 
-.downloadtitle{
- font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
-  text-align: center;
-  color: #ffffff;
-  padding-top:200px;
-  
+.downloadtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 200px;
+
 }
-.appstorebtm2{
-		width: 169px;
-	height: auto;
-	padding-top:40px;
-	display:block;
-	margin:0 auto;
+
+.appstorebtm2 {
+    width: 169px;
+    height: auto;
+    padding-top: 40px;
+    display: block;
+    margin: 0 auto;
 }
-.downloadfomtext{
-	font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  color: #ffffff;
-  padding-top:200px;
-  padding-bottom:50px;
+
+.downloadfomtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
-.input-sign{
+
+.input-sign {
     border: 0;
-   
+
     width: 500px;
     height: 26px;
-   background: none;
-   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  color: #ffffff;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
 }
-.input-sign:focus{
-	outline:none;
+
+.input-sign:focus {
+    outline: none;
 }
-.popupsend:focus{
-	outline:none;
+
+.popupsend:focus {
+    outline: none;
 }
-.popupsend{
- font-family: Montserrat;
-  font-size: 12px;
-  color: #ffffff;
-  background: none;
+
+.popupsend {
+    font-family: Montserrat;
+    font-size: 12px;
+    color: #ffffff;
+    background: none;
     border: none;
-	width:100px;
-	    text-align: right;
+    width: 100px;
+    text-align: right;
     float: right;
-	padding: 0px;
-  
-  }
-.inputsborder{
-	 border-bottom: 1px solid #fff;
-	 width:610px;
-	margin:0 auto;
-	 }
-	 
-	 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #fff;
+    padding: 0px;
+
 }
+.iphone-students {
+    width: 400px;
+    height: auto;
+    float: right;
+    padding-right: 80px;
+}
+
+.iphone-instructors {
+    width: 400px;
+    height: auto;
+    float: left;
+    padding-left: 30px;
+}
+.inputsborder {
+    border-bottom: 1px solid #fff;
+    width: 610px;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+
 ::-moz-placeholder { /* Firefox 19+ */
-   color: #fff;
+    color: #fff;
 }
+
 :-ms-input-placeholder { /* IE 10+ */
-   color: #fff;
+    color: #fff;
 }
+
 :-moz-placeholder { /* Firefox 18- */
-   color: #fff;
+    color: #fff;
 }
 
-.footerhalf{
-	width:50%;
-	float:left;
+.footerhalf {
+    width: 50%;
+    float: left;
 
 }
-.footercopytext{
-	  font-family: Montserrat;
-  font-size: 15px;
-  color: #ffffff;
-  padding:32px 0px 0px 44px;
-  
+
+.footercopytext {
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 32px 0px 0px 44px;
+
 }
-.socialiconsfooter{
+
+.socialiconsfooter {
     float: right;
     padding: 33px 19px 0px 0px;
 
 }
-.socialiconsimg{
 
-width:auto;height:19px;
-padding:0px 15px;
-}
-.mobilemenuhamburger{
-	display:none;
-}
-.mobile{
-display:none;
-}
-.pk{
-display:block;
+.socialiconsimg {
+
+    width: auto;
+    height: 19px;
+    padding: 0px 15px;
 }
 
-
-@media only screen and (max-width: 768px) {
-.mobile{
-display:block;
-}
-.pk{
-display:none;
-}
-.section_features {
-    width: 100%;
-    height:auto;
-    overflow: auto;
+.mobilemenuhamburger {
+    display: none;
 }
 
-.featuresthreezero {
-    width: 100%;
-    }
-.featuresthreefive {
-    width: 100%;
-    }
-.instructorshalf {
-    width: 100%;
-    }
-.studenthalf {
-    width: 100%;
+@media only screen and (max-width: 770px) {
+    .section_features {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        padding-top:70px;
     }
 
-.aboutustitle {
-    font-size: 28px;
+    .featuresthreezero {
+        width: 100%;
     }
-	.menuitemswrap{
-		display:none;
-	}
-	.mobilemenuhamburger{
-	display:block;
-	background:url("../img/mobile-menu-toggle-white.png");
-	background-size:cover;
-	width:35px;
-	height:35px;
-	margin: 42px 44px 0px 0px;
-	float:right;
-	transition:0.5s;
-}
-.menuunderscroll .mobilemenuhamburger{
-	    margin: 25px 44px 0px 0px;
-		background:url("../img/mobile-menu-toggle-gray.png");
-		background-size: cover;
-		transition:0.5s;
-}
-.herotext {
-    font-size: 34px;
-    padding: 100px 10% 0px 10%;
-	text-align:center;
-}
-.watchvideobtn{
-	text-align:center;
-}
-.homewrap{
-	
-	padding:20% 0px 0px 0px;
-}
 
-.appstorebtm{
-	display:block;
-	margin:0 auto;
-}
+    .featuresthreefive {
+        width: 100%;
+    }
+
+    .instructorshalf {
+        width: 100%;
+        text-align: center;
+    }
+
+    .studenthalf {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutustitle {
+        font-size: 28px;
+    }
+
+    .menuitemswrap {
+        display: none;
+    }
+
+    .mobilemenuhamburger {
+        display: block;
+        background: url("../img/mobile-menu-toggle-white.png");
+        background-size: cover;
+        width: 35px;
+        height: 35px;
+        margin: 42px 44px 0px 0px;
+        float: right;
+        transition: 0.5s;
+    }
+
+    .menuunderscroll .mobilemenuhamburger {
+        margin: 25px 44px 0px 0px;
+        background: url("../img/mobile-menu-toggle-gray.png");
+        background-size: cover;
+        transition: 0.5s;
+    }
+
+    .herotext {
+        font-size: 34px;
+        padding: 100px 10% 0px 10%;
+        text-align: center;
+    }
+
+    .watchvideobtn {
+        text-align: center;
+    }
+
+    .homewrap {
+
+        padding: 20% 0px 0px 0px;
+    }
+
+    .appstorebtm {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .iphone-students {
+        float:none;
+        padding-right: 0;
+    }
+    .studentstext3 {
+        padding-right: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section_instructors {
+        margin-top:100px;
+    }
+    .instructorstext1 {
+        padding-left:0;
+    }
+    .instructorstext2 {
+        padding-left:0;
+    }
+    .instructorstext3 {
+        padding-left:0;
+    }
+    .instructorsbtmwrap {
+        padding-left:0;
+    }
+    .iphone-instructors {
+        float:none;
+        padding-left:0;
+        margin-top:50px;
+    }
+    .futuretitleleft {text-align:center;}
+    .futuretextleft {text-align:center;padding-left:0;margin-bottom: 20px;}
+    .futuretitleright {text-align:center;}
+    .futuretextright {text-align:center;padding-right:0;margin-bottom:20px;}
+
+    .mobile {
+        display: block;
+    }
+
+    .pk {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-	.menuitemswrap{
-		     width: 557px;
-    padding: 52px 14px 0px 0px;
-	}
-	.menuitem{
-	font-size: 11px;
-}
-.menuitemhome{
-	font-size: 11px;
-}
-	.logohome {
-    width: 136.8px;
-    height: 38.4px;
-  
-}
+    .menuitemswrap {
+        width: 557px;
+        padding: 52px 14px 0px 0px;
+    }
+
+    .menuitem {
+        font-size: 11px;
+    }
+
+    .menuitemhome {
+        font-size: 11px;
+    }
+
+    .logohome {
+        width: 136.8px;
+        height: 38.4px;
+
+    }
 
 }
 
-.play-button {padding-top:80px;height: 100px;width: 900px;margin: 0 auto;}
-.iphone-students {width:400px;height:auto;float:right;padding-right:80px;}
-.iphone-instructors {width:400px;height:auto;float:left;padding-left:30px;}
-.contact {float:left;font-size: 15px;color: #ffffff;padding-right:80px;}
-.overflow {overflow: auto;}
+.play-button {
+    padding-top: 80px;
+    height: 100px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.contact {
+    float: left;
+    font-size: 15px;
+    color: #ffffff;
+    padding-right: 80px;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.videobuttondawdaw {
+    background: url("../img/play_button@2x.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border: 0px;
+    cursor: pointer;
+}
+
+#videoitshelg {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    width: 100%;
+    height: 700px;
+    background: #000;
+}
+
+#closevideorightnow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+}
+
+.displayblock {
+    display: block !important;
+}
+
+#video1 {
+    height: 700px !important;
+}
+
+.videobuttondawdaw2 {
+    background: url("../img/play_button@2x.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border: 0px;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+#videoitshelg2 {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+
+#closevideorightnow2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99999999999999999999999999999;
+    display: none;
+}
+
+#video2 {
+    height: 300px !important;
+}
+
+.mobilevideo {
+    display: none;
+    position: absolute;
+    z-index: 9999999999;
+    width: 100%;
+    height: 700px;
+    background: #000;
+
+}
+
+.videoiframemobile {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30%;
+    width: 100%;
+    height: 50%;
+}
+
+.mobilevideo2 {
+    display: none;
+    position: absolute;
+    z-index: 9999999999;
+    width: 100%;
+    height: 300px;
+    background: #000;
+}
+
+.videoiframemobile2 {
+    margin: 0 auto;
+    display: block;
+    /*margin-top: 30%;*/
+    width: 100%;
+    height: 60%;
+}
+
 @media only screen and (max-width: 400px) {
-.mobile{
-display:block;
-}
-.pk{
-display:none;
-} 
+    .mobile {
+        display: block;
+    }
 
-	.aboutustitle {padding:40px;}
-	.play-button {display: none;}
-	.studenthalf {width: initial;text-align: center;}
-	.instructorshalf {width: initial;text-align: center;}
-	.instructorstext1 {padding-left:0;}
-	.instructorstext2 {padding-left:0;}
-	.instructorstext3 {padding-left:0;width: 90%;margin: 0 auto;}
-	.instructorsbtmwrap {padding-left:0;padding-bottom:40px;}
-	.iphone-students {width:90%;float: none;padding-right: 0;}
-	.iphone-instructors {width:90%;}
-	.studentstext3 {padding-top:0;padding-right:0;width:90%;margin:0 auto;}
-	.downloadfomtext {padding-bottom: 20px;}
-	.inputsborder {width:90%;}
-	.input-sign {width:65%;}
-	.footer {height:105px;}
-	.socialiconsimg {padding: 0 3px;}
-	.footercopytext {font-size:12px;}
-	.contact {float:none;padding-bottom:15px;}
-	.section_features {height: auto;}
-	.featuresthreefive {float:none;width:100%;}
-	.overflow {}
-	.featuresthreezero {float:none;width:100%;}
-	.futuretitleleft {text-align:center;}
-	.futuretextleft {text-align:center;padding-left:0;width: 90%;margin: 0 auto;padding-bottom:20px;}
-	.futuretitleright {text-align:center;}
-	.futuretextright {text-align:center;padding-right:0;width: 90%;margin: 0 auto;padding-bottom:20px;}
+    .pk {
+        display: none;
+    }
+
+    .aboutustitle {
+        padding: 40px;
+    }
+
+    .studenthalf {
+        width: initial;
+        text-align: center;
+    }
+
+    .instructorshalf {
+        width: initial;
+        text-align: center;
+    }
+
+    .instructorstext1 {
+        padding-left: 0;
+    }
+
+    .instructorstext2 {
+        padding-left: 0;
+    }
+
+    .instructorstext3 {
+        padding-left: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .instructorsbtmwrap {
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+
+    .iphone-students {
+        width: 90%;
+        float: none;
+        padding-right: 0;
+    }
+
+    .iphone-instructors {
+        width: 90%;
+    }
+
+    .studentstext3 {
+        padding-top: 0;
+        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .downloadfomtext {
+        padding-bottom: 20px;
+    }
+
+    .inputsborder {
+        width: 90%;
+    }
+
+    .input-sign {
+        width: 65%;
+    }
+
+    .footer {
+        height: 105px;
+    }
+
+    .socialiconsimg {
+        padding: 0 3px;
+    }
+
+    .footercopytext {
+        font-size: 12px;
+    }
+
+    .contact {
+        float: none;
+        padding-bottom: 15px;
+    }
+
+    .section_features {
+        height: auto;
+    }
+
+    .featuresthreefive {
+        float: none;
+        width: 100%;
+    }
+
+    .overflow {
+    }
+
+    .featuresthreezero {
+        float: none;
+        width: 100%;
+    }
+
+    .futuretitleleft {
+        text-align: center;
+    }
+
+    .futuretextleft {
+        text-align: center;
+        padding-left: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .futuretitleright {
+        text-align: center;
+    }
+
+    .futuretextright {
+        text-align: center;
+        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 }
