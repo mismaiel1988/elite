@@ -665,10 +665,12 @@ body {
     .play-button {
         width: 100%;
         padding-left: 2%;
+        display: none;
     }
     .play-button1 {
         width: 100%;
         padding-left: 2%;
+        display: none;
     }
     .studenthalf {
         width: initial;
@@ -743,7 +745,7 @@ body {
     .contact {
         float: none;
         padding-bottom: 15px;
-        text-decoration: none !important;
+
     }
 
     .section_features {
