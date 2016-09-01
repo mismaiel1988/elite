@@ -57,9 +57,7 @@
 		</div>
 		<div id="section_aboutus" class="section_aboutus">
 			<div class="aboutustitle">Elite is creating more!</div>
-			<div class="aboutustext">Our mobile app allows users to select any topic of interest such as math, exam preparation, language, personal fitness, piano,
-				golf, etc. and book an in-person tutoring session with quality instructors at the convenience and comfort of their own home
-				and schedule. Our goal is to make learning fun by introducing the social element to personalized education.</div>
+			<div class="aboutustext">Our mobile app allows users to select any topic of interest such as math, exam preparation, language, personal fitness, piano, golf, etc. and book an in-person tutoring session with quality instructors at the convenience and comfort of their own home and schedule. Our goal is to make learning fun by introducing the social element to personalized education.</div>
 			<div class="play-button">
 				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-business.png"></div>
 				<div class="aboutusimage"><img style="width:100px;height:auto;" src="img/subject-computer.png"></div>
