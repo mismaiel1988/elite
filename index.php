@@ -48,8 +48,8 @@
 					<div class="mobile"><button id="videobuttondawdaw123123" class="videobuttondawdaw" style="margin-top:20px;"></button></div>
 				</div>
 				<div>
-					<a href="https://itunes.apple.com/us/app/elite-instructors-student/id991247242?mt=8">
-					<img class="appstorebtm" src="img/app_store_button@2x.png">
+					<a class="appstorebtm" href="https://itunes.apple.com/us/app/elite-instructors-student/id991247242?mt=8">
+				<!-- 	<img class="appstorebtm" src="img/app_store_button@2x.png"> -->
 					</a>
 				</div>
 			</div>
