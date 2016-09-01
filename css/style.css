@@ -184,16 +184,15 @@ body {
 .appstorebtm {
     width: 169px;
     height: auto;
-    padding-top: 60px;
+    padding-top: 44px;
 
 }
+/*
 .appstorebtm:hover {
-    width: 169px;
-    height: auto;
-    padding-top: 60px;
-    background:rgba(0,0,0,0.6);
 
-}
+    background:rgba(0,0,0,0.5);
+
+}*/
 
 .playvideobtn {
     width: 60px;
@@ -526,7 +525,7 @@ body {
 
 @media only screen and (max-width: 1024px) {
     .menuitemswrap {
-        width: 557px;
+        width: 564px;
         padding: 52px 14px 0px 0px;
     }
 
@@ -596,7 +595,7 @@ body {
 }
 
 .videobuttondawdaw2 {
-    background: url("../img/playplay.png");
+    background: url("../img/play_button@2x.png");
     width: 40px;
     height: 40px;
     background-size: cover;
