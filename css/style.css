@@ -120,6 +120,7 @@ body {
     height: auto;
     background: #fff;
     padding-bottom:80px;
+    padding-top: 7%;
 }
 .pk {
     display: block;
@@ -132,18 +133,21 @@ body {
     width: 100%;
     height: 700px;
     background: #fff;
+    padding-top: 12%;
 }
 
 .section_instructors {
     width: 100%;
     height: 700px;
     background: #fff;
+    padding-top: 12%;
 }
 
 .section_features {
     width: 100%;
     height: 700px;
     background: #fff;
+    padding-top: 12%;
 }
 
 .section_download {
