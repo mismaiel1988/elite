@@ -37,7 +37,7 @@
 					<a href="#section_download"><div class="menuitem">DOWNLOAD</div></a>
 				</div>
 			</div>
-			<div class="mobilemenuhamburger"></div>
+			<!--<div class="mobilemenuhamburger"></div>-->
 		</div>
 		<div id="section_home" class="section_home">
 			<div class="homewrap">
@@ -109,20 +109,20 @@
 			<div id="section_features" class="section_features">
 			<div class="featuresthreefive">
 				<div class="overflow"><img class="futureimgleft" src="img/time_place_icon@2x.png"></div>
-				<div class="futuretitleleft">FEATURE ONE</div>
+				<div class="futuretitleleft">TIME AND PLACE</div>
 				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
 				<div class="overflow"><img style="padding-top: 40px;" class="futureimgleft" src="img/payment_icon@2x.png"></div>
-				<div class="futuretitleleft">FEATURE TWO</div>
-				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
+				<div class="futuretitleleft">CASHLESS PAYMENT</div>
+				<div class="futuretextleft">Pay and get paid with ease and security.</div>
 			</div>
 			<div class="featuresthreezero"><img style="width:auto;height:500px;display:block;margin:0 auto;" src="img/iPhone6_mockup_features_black@2x.png"></div>
 			<div class="featuresthreefive">
 				<div class="overflow"><img class="futureimgright" src="img/intructors_icon@2x.png"></div>
-				<div class="futuretitleright">FEATURE ONE</div>
-				<div class="futuretextright">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
+				<div class="futuretitleright">QUALITY INSTRUCTORS</div>
+				<div class="futuretextright">Be among high quality instructors or learn from the best.</div>
 				<div class="overflow"><img style="padding-top: 40px;" class="futureimgright" src="img/coonect_icon@2x.png"></div>
-				<div class="futuretitleright">FEATURE TWO</div>
-				<div class="futuretextright">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
+				<div class="futuretitleright">CONNECT AND ENJOY</div>
+				<div class="futuretextright">Find out how easy and fun it is to connect, learn, and instruct.</div>
 			</div>
 			</div>
 		</div>
@@ -131,7 +131,7 @@
 			<div class="featuresthreezero"><img style="width:auto;height:500px;display:block;margin:0 auto;" src="img/iPhone6_mockup_features_black@2x.png"></div>
 			<div class="featuresthreefive">
 				<div class="overflow"><img class="futureimgleft" src="img/time_place_icon@2x.png"></div>
-				<div class="futuretitleleft">FEATURE ONE</div>
+				<div class="futuretitleleft">TIME AND PLACE</div>
 				<div class="futuretextleft">Anyone with knowledge or experience in a subject can tutor. The process is simple.</div>
 				<div class="overflow"><img style="padding-top: 40px;" class="futureimgleft" src="img/payment_icon@2x.png"></div>
 				<div class="futuretitleleft">FEATURE TWO</div>
@@ -180,7 +180,7 @@
 			<div class="footerhalf"><div class="footercopytext">&copy; 2016 Elite Instructors, Inc. All rights reserved.</div></div>
 			<div class="footerhalf">
 				<div class="socialiconsfooter">
-				<div class="contact">Contact</div>
+				<div class="contact"><a style="text-decoration: none; color: white; " href="mailto:support@elite-app.com">Contact</a></div>
 					<a href="https://www.facebook.com/eliteapp/">
 					<img class="socialiconsimg" src="img/facebook@2x.png">
 					</a>

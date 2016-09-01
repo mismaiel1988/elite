@@ -540,6 +540,7 @@ body {
     font-size: 15px;
     color: #ffffff;
     padding-right: 80px;
+    text-decoration: none;
 }
 
 .overflow {
@@ -663,11 +664,11 @@ body {
 
     .play-button {
         width: 100%;
-        padding-left: 8%;
+        padding-left: 2%;
     }
     .play-button1 {
         width: 100%;
-        padding-left: 8%;
+        padding-left: 2%;
     }
     .studenthalf {
         width: initial;
@@ -742,6 +743,7 @@ body {
     .contact {
         float: none;
         padding-bottom: 15px;
+        text-decoration: none !important;
     }
 
     .section_features {
