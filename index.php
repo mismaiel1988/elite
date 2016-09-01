@@ -34,7 +34,7 @@
 					<a href="#section_students"><div class="menuitem">STUDENTS</div></a>
 					<a href="#section_instructors"><div class="menuitem">INSTRUCTORS</div></a>
 					<a href="#section_features"><div class="menuitem">FEATURES</div></a>
-					<a href="#section_download"><div style="border: 2px solid red;border-radius: 12px;"class="menuitem">DOWNLOAD</div></a>
+					<a style="border: 2px solid red;border-radius: 12px;"href="#section_download"><div class="menuitem">DOWNLOAD</div></a>
 				</div>
 			</div>
 			<!--<div class="mobilemenuhamburger"></div>-->

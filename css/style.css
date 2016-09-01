@@ -79,7 +79,7 @@ body {
 
 .menuitemswrap {
 
-    width: 684px;
+    width: 708px;
     float: right;
     padding: 52px 74px 0px 0px;
     transition: 0.5s;
@@ -185,6 +185,14 @@ body {
     width: 169px;
     height: auto;
     padding-top: 60px;
+
+}
+.appstorebtm:hover {
+    width: 169px;
+    height: auto;
+    padding-top: 60px;
+    background:rgba(0,0,0,0.6);
+
 }
 
 .playvideobtn {
