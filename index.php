@@ -34,14 +34,14 @@
 					<a href="#section_students"><div class="menuitem">STUDENTS</div></a>
 					<a href="#section_instructors"><div class="menuitem">INSTRUCTORS</div></a>
 					<a href="#section_features"><div class="menuitem">FEATURES</div></a>
-					<a href="#section_download"><div class="menuitem">DOWNLOAD</div></a>
+					<a href="#section_download"><div style="border: 2px solid red;border-radius: 12px;"class="menuitem">DOWNLOAD</div></a>
 				</div>
 			</div>
 			<!--<div class="mobilemenuhamburger"></div>-->
 		</div>
 		<div id="section_home" class="section_home">
 			<div class="homewrap">
-				<div class="herotext">A new way for students and instructors to connect!</div>
+				<div class="herotext">A better way for students and instructors to connect!</div>
 				<div class="watchvideobtn">
 					Watch the video
 					<div class="pk"><button id="videobuttondawdaw" class="videobuttondawdaw"></button></div>
