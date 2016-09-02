@@ -28,7 +28,7 @@ body {
 
 .menuitem {
     float: left;
-    padding: 0px 17.5px 0px 17.5px;
+     padding: 9px 17.5px 9px 17.5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #ffffff;
@@ -48,10 +48,16 @@ body {
     cursor: pointer;
 }
 
+.download{
+    border: 2px solid white; 
+    border-radius: 25px;
+    padding: 9px 17.5px 9px 17.5px
+}
+
 /**--home item only-----------------------------------------------------**/
 .menuitemhome {
     float: left;
-    padding: 0px 17.5px 0px 17.5px;
+    padding: 9px 17.5px 0px 17.5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #ffffff;
@@ -79,15 +85,15 @@ body {
 
 .menuitemswrap {
 
-    width: 708px;
+ width: 780px;
     float: right;
-    padding: 52px 74px 0px 0px;
+    padding: 52px 3px 0px 0px;
     transition: 0.5s;
 }
 
 .menuunderscroll .menuitemswrap {
     transition: 0.5s;
-    padding: 35px 74px 0px 0px;
+    padding: 28px 3px 0px 0px;
 }
 
 .logohome {
@@ -120,7 +126,7 @@ body {
     height: auto;
     background: #fff;
     padding-bottom:80px;
-    padding-top: 7%;
+    padding-top: 2%;
 }
 .pk {
     display: block;
@@ -131,28 +137,28 @@ body {
 }
 .section_students {
     width: 100%;
-    height: 700px;
+   height: 635px;
     background: #fff;
-    padding-top: 12%;
+    padding-top: 10%;
 }
 
 .section_instructors {
     width: 100%;
-    height: 700px;
+    height: 635px;
     background: #fff;
-    padding-top: 12%;
+    padding-top: 11%;
 }
 
 .section_features {
     width: 100%;
-    height: 700px;
+    height: 655px;
     background: #fff;
-    padding-top: 12%;
+    padding-top: 8%;
 }
 
 .section_download {
     width: 100%;
-    height: 700px;
+    height: 725px;
     background: #fff;
     background: url("../img/download_bg.jpg");
     background-size: cover;
@@ -182,17 +188,15 @@ body {
 }
 
 .appstorebtm {
+    background: url(../img/app_store_button@2x.png) no-repeat;
     width: 169px;
     height: auto;
-    padding-top: 44px;
-    background: url(../img/app_store_button@2x.png);
-
+    padding-top: 60px;
 }
 
 .appstorebtm:hover {
-    background: url("../img/unnamed.png");
+    background: url(../img/app_store_button_active%20@2x.png) no-repeat;
 }
-
 
 .playvideobtn {
     width: 60px;
@@ -253,12 +257,24 @@ body {
 
 .studentsbtm {
     font-family: 'Roboto', sans-serif;
-    border-radius: 4px;
-    background-color: rgba(215, 215, 215, 0.82);
     font-size: 16px;
     color: #414042;
     padding: 16px 32px;
     text-decoration: none;
+    border: 3px solid #7d7e7f; 
+    border-radius: 32px;
+}
+.studentsbtm:hover {
+     
+    font-family: 'Roboto', sans-serif;
+    border-radius: 32px;
+    font-size: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border: none;
+    background-color: #7d7e7f;
+     /*background-color: rgba(215, 215, 215, 0.82);*/
 }
 
 .instructorshalf {
@@ -296,13 +312,25 @@ body {
 
 .instructorsbtm {
     font-family: 'Roboto', sans-serif;
-    border-radius: 4px;
-    background-color: rgba(215, 215, 215, 0.82);
     font-size: 16px;
     color: #414042;
     padding: 16px 32px;
     text-decoration: none;
+    border: 3px solid #7d7e7f; 
+    border-radius: 32px;
 }
+.instructorsbtm:hover{ 
+    font-family: 'Roboto', sans-serif;
+    border-radius: 32px;
+    font-size: 16px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border: none;
+    background-color: #7d7e7f;
+    /* background-color: rgba(215, 215, 215, 0.82);*/
+}
+
 
 .featuresthreefive {
     width: 35%;
@@ -393,15 +421,19 @@ body {
     text-align: center;
     color: #ffffff;
     padding-top: 200px;
-
+    padding-bottom: 40px;
 }
 
 .appstorebtm2 {
+    background: url(../img/app_store_button.png) no-repeat;
     width: 169px;
-    height: auto;
-    padding-top: 40px;
+    height: 57px;
     display: block;
     margin: 0 auto;
+}
+
+.appstorebtm2:hover {
+    background: url(../img/app_store_button_active%20@2x.png) no-repeat;
 }
 
 .downloadfomtext {
@@ -442,7 +474,7 @@ body {
     text-align: right;
     float: right;
     padding: 0px;
-
+    cursor: pointer;
 }
 .iphone-students {
     width: 400px;
@@ -522,10 +554,9 @@ body {
     padding-top: 10px;
 }
 
-
 @media only screen and (max-width: 1024px) {
     .menuitemswrap {
-        width: 564px;
+        width: 563px;
         padding: 52px 14px 0px 0px;
     }
 
@@ -551,7 +582,6 @@ body {
     font-size: 15px;
     color: #ffffff;
     padding-right: 80px;
-    text-decoration: none;
 }
 
 .overflow {
@@ -560,30 +590,129 @@ body {
 }
 
 .videobuttondawdaw {
-    background: url("../img/play_button@2x.png");
-    width: 40px;
-    height: 40px;
+    background: url("../img/play_button_red@2x.png");
+    width: 70px;
+    height: 70px;
     background-size: cover;
     border: 0px;
     cursor: pointer;
     margin-top: 26px;
+    margin-left: 52px;
+
+
 }
 
+.videobuttondawdaw:hover {
+    width: 70px;
+    height: 70px;
+    background: url("../img/play_button_red@2x.png");
+    background-size: cover;
+    opacity: 0.8;
+    margin-left: 52px;
+
+}
+
+.videobuttondawdaw2 {
+
+   width: 70px;
+    height: 70px;
+    background: url("../img/play_button_red@2x.png");
+    background-size: cover;
+   border: none;
+    margin-left: 48%;
+    margin-top: 130px;
+
+
+}
+.videobuttondawdaw2:hover {
+     width: 70px;
+    height: 70px;
+    background: url("../img/play_button_red@2x.png");
+    background-size: cover;
+    opacity: 0.8;
+     margin-left: 48%;
+    margin-top: 130px;
+}
 #videoitshelg {
-    position: absolute;
+    position: fixed;
     z-index: 9;
     display: none;
     width: 100%;
-    height: 700px;
-    background: #000;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
 }
 
-#closevideorightnow {
-    width: 100%;
-    height: 100%;
+#closevideorightnow-top {
+    height:10%;
+    width:100%;
     position: fixed;
     z-index: 99999999999999999999999999999;
     display: none;
+    cursor: pointer;
+}
+#closevideorightnow-left {
+    height:100%;
+    width:10%;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
+}
+#closevideorightnow-right {
+    height:100%;
+    width:10%;
+    right:0;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
+}
+#closevideorightnow-bottom {
+    height:10%;
+    width:100%;
+    bottom:0;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
+}
+#closevideorightnow2-top {
+    height:10%;
+    width:100%;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
+    top:0;
+}
+#closevideorightnow2-left {
+    height:100%;
+    width:10%;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
+    top:0;
+}
+#closevideorightnow2-right {
+    height:100%;
+    width:10%;
+    right:0;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
+    top:0;
+}
+#closevideorightnow2-bottom {
+    height:10%;
+    width:100%;
+    bottom:0;
+    position: fixed;
+    z-index: 99999999999999999999999999999;
+    display: none;
+    cursor: pointer;
 }
 
 .displayblock {
@@ -591,27 +720,27 @@ body {
 }
 
 #video1 {
-    height: 700px !important;
+    position: absolute;
+    display: block;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    height: 80% !important;
+    z-index: 15;
 }
 
-.videobuttondawdaw2 {
-    background: url("../img/play_button@2x.png");
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    border: 0px;
-    cursor: pointer;
-    margin-left: 30%;
-    margin-top: 30px;
-}
+
 
 #videoitshelg2 {
-    position: absolute;
+    position: fixed;
     z-index: 9;
     display: none;
     width: 100%;
-    height: 300px;
-    background: #000;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
+    top:0;
 }
 
 #closevideorightnow2 {
@@ -623,7 +752,15 @@ body {
 }
 
 #video2 {
-    height: 300px !important;
+    position: absolute;
+    display: block;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    height: 80% !important;
+    z-index: 15;
+    margin: 0 auto;
 }
 
 .mobilevideo {
@@ -660,8 +797,9 @@ body {
     width: 100%;
     height: 60%;
 }
-
-@media only screen and (max-width: 400px) {
+.center-apple {margin: 0;}
+@media only screen and (max-width: 414px) {
+    .center-apple {margin: 0 auto;}
     .mobile {
         display: block;
     }
@@ -673,8 +811,21 @@ body {
     .aboutustitle {
         padding: 40px;
     }
+    
+.timemargin{
+    margin-bottom: 0;
+    padding-top: 18px;
+}
 
-    .play-button {
+
+.paddingremove{
+    padding-bottom: 0;
+}
+.connect{
+    padding-top: 23px;
+}
+
+  .play-button {
         width: 100%;
         padding-left: 2%;
         display: none;
@@ -757,7 +908,6 @@ body {
     .contact {
         float: none;
         padding-bottom: 15px;
-
     }
 
     .section_features {
@@ -802,6 +952,7 @@ body {
     }
 }
 @media only screen and (max-width: 770px) {
+    .center-apple {margin: 0 auto;}
     .futureimgleft {float:none;}
     .futureimgright {float:none;}
     .overflow {text-align: center;padding-top:20px;}
@@ -811,12 +962,28 @@ body {
         overflow: auto;
         padding-top:70px;
     }
+  .langicon {
+        display: none;
+    }
+
+.paddingremove{
+    margin-bottom: 0;
+}
+.connect{
+    padding-top: 23px;
+}
+.timemargin{
+    margin-bottom: 0;
+    padding-top: 18px;
+}
 
     .play-button {
         width: 100%;
+      
     }
     .play-button1 {
         width: 100%;
+
     }
     .featuresthreezero {
         width: 100%;
@@ -844,7 +1011,7 @@ body {
         display: none;
     }
 
-    .mobilemenuhamburger {
+/*    .mobilemenuhamburger {
         display: block;
         background: url("../img/mobile-menu-toggle-white.png");
         background-size: cover;
@@ -860,7 +1027,7 @@ body {
         background: url("../img/mobile-menu-toggle-gray.png");
         background-size: cover;
         transition: 0.5s;
-    }
+    }*/
 
     .herotext {
         font-size: 34px;
@@ -924,3 +1091,12 @@ body {
         display: none;
     }
 }
+.overflow-hidden {
+    overflow: hidden;
+}
+@media only screen and (max-width: 700px) {
+    #videobuttondawdaw123123{
+        margin-left:0;
+    }
+}
+   
